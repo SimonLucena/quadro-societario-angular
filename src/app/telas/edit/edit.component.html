@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>{{ titulo }}</h2> 
+  <div class="container-formulario">
+    <form [formGroup]="empresaForm" (ngSubmit)="salvar()">
+      <mat-form-field appearance="fill">
+        <input matInput formControlName="cnpj" placeholder="CNPJ" required />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <input matInput formControlName="razao_social" placeholder="Razão Social" required />
+      </mat-form-field>
+
+      <div class="button-group">
+        <button mat-raised-button color="primary" type="submit">Salvar</button>
+        <button mat-raised-button color="warn" (click)="cancelar()">Cancelar</button>
+      </div>
+    </form>
+  </div>
+</div>

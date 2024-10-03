@@ -1,0 +1,81 @@
+.container {
+  width: 80%;
+  margin: 5em auto;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.empresa-table-container {
+  margin-top: 20px;
+}
+
+.mat-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nova-empresa-btn {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mat-icon {
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 5em;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 1px solid #ddd; /* Borda entre as linhas */
+}
+
+table tr:last-child {
+  border-bottom: none; /* Remove a borda da última linha */
+}
+
+.mat-header-row {
+  border-bottom: 2px solid #000; /* Borda mais grossa no cabeçalho */
+}
+
+.mat-cell, .mat-header-cell {
+  padding: 10px;
+  border-right: 1px solid #2c2c2c; /* Borda entre as colunas */
+}
+
+.mat-cell:last-child, .mat-header-cell:last-child {
+  border-right: none; /* Remove a borda da última célula em cada linha */
+}
+
+button {
+  margin-right: 5px;
+}
+
+mat-toolbar {
+  justify-content: center;
+}
+
+.cdk-column-acoes.mat-column-acoes {
+  width: 14em;
+}
+
+.cdk-header-cell {
+  text-align: center;
+}
+
+.mat-column-acoes {
+  border-right: 2px solid #00000012;
+}
+
+.mat-column-cnpj {
+  border-right: 2px solid #00000012;
+}

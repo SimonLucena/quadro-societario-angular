@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'quadro-societario-angular2';
+  title = 'quadro-societario-angular';
 }

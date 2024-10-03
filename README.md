@@ -20,12 +20,12 @@ Siga as etapas abaixo para clonar e rodar o projeto localmente.
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://gitlab.com/seu-usuario/nome_projeto-front-end.git
+git clone https://gitlab.com/simonlucena8/quadro-societario-angular
 ```
 
 ### 2. Acesse o diretório do projeto:
 ```bash
-cd nome_projeto-front-end
+cd quadro-societario-angular
 ```
 
 ### 3. Instale as dependências:
@@ -60,16 +60,8 @@ export const environment = {
 ## Estrutura do Código
 ```
 src/
-├── app/
-│   ├── components/   # Componentes reutilizáveis
-│   ├── services/     # Serviços para comunicação com o back-end
-│   └── models/       # Modelos de dados da aplicação
-├── environments/     # Configurações de ambientes (produção e desenvolvimento)
-└── assets/           # Arquivos estáticos
+└── app/
+    ├── components/   # Componentes reutilizáveis
+    ├── services/     # Serviços para comunicação com o back-end
+    └── telas/        # Telas da aplicação
 ```
-
-## Geração de Código
-Para gerar um novo componente, use o comando ng generate component nome-componente. Você também pode usar ng generate directive|pipe|service|class|guard|interface|enum|module para gerar outros tipos de artefatos.
-
-## Build
-Para compilar o projeto, execute o comando ng build. Os artefatos de build serão armazenados no diretório dist/.
